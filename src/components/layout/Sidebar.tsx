@@ -39,7 +39,7 @@ const Sidebar: React.FC = () => {
         </Link>
         <Link
           to="/turns"
-          className={`flex items-center gap-2.5 cursor-pointer p-2.5 rounded-[5px] hover:bg-[#3b8a3f] hover:text-[#ffffff]${
+          className={`flex items-center gap-2.5 cursor-pointer p-2.5 rounded-[5px] hover:bg-[#3b8a3f] hover:text-[#ffffff] ${
             currentPath === "/turns" ? "bg-[#ffffff] text-[#3b8a3f]" : ""
           } max-md:flex-col max-md:text-xs max-md:p-1.5`}
         >
