@@ -76,7 +76,7 @@ const DriverDetailsModal: React.FC<DriverDetailsModalProps> = ({ driver, onClose
     <Dialog open={!!driver} onOpenChange={(open) => {
       if (!open) onClose();
     }}>
-      <DialogContent className="sm:max-w-[550px] max-h-[90vh] overflow-y-auto">
+      <DialogContent className=" max-w-[550px] md:max-w-[700px] max-h-[90vh] overflow-y-auto">
         <div className="p-4">
           <h2 className="text-2xl font-bold mb-6">{driver.fullName}</h2>
           
